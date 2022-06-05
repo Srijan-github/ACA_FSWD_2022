@@ -1,0 +1,122 @@
+<html>
+    <head>
+        <title>
+            My Resume
+        </title>
+        <style>
+            #resumeEmailDivision {
+                text-align: right;
+            }
+
+            #resumeNameHeading {
+                font-size: 30px;
+                font-weight: bold;
+            }
+            /*#resumeEmailDivision {
+                text-align: center;
+                background: lightgray;
+                border: 5px solid blue;
+                border-radius: 25px;
+                font-size: 3opx;
+                font-weight: bold;
+            }
+            #resumeNameDivision { 
+                color: blue;
+                background: rgb(165, 241, 165);
+            }
+            #resumeEmailDivision {
+                color: red;
+                background: gray;
+            }
+            #educationalQualification {
+                border: 1px solid black;
+            }*/
+            #headingDivision {
+                display: flex;
+                flex-direction: row;
+                justify-content: space-between;
+            }
+
+            .heading {
+                border: 3px solid blue;
+            }
+
+            #heading3 {
+                border: 3px solid red;
+            }
+
+            .body {
+                border-left: 2px solid black;
+                border-right: 2px solid black;
+                background-color: grey;
+            }
+
+            .bodyBottom {
+                border-bottom: 2px solid black;
+            }
+
+            .educationalQualificationsTable {
+                width: 100%;
+            }
+
+        </style>
+    </head>
+
+    <body id="resumeBody">
+        <div id="headingDivision" style="background-color: lightgrey;">
+            <div id="resumeNameDivision">
+                <div id="resumeNameHeading"> Srijan Kumar <br /> </div>
+                Fresher <br />
+                Department of Civil Engineering <br />
+                IIT Kanpur <br />
+            </div>
+            <!-- <img src="https://drive.google.com/file/d/1A5LtM9empb0kCmkRhWzRZTEg-71gV19m/view?usp=sharing" alt="notebook" height="100"  /> -->
+            <img src="/srijan.jpg"  height="300"  />
+            <div id="resumeEmailDivision">
+                srijank21@iitk.ac.in<br />
+                +91-9415365900<br />
+                <a href="https://github.com/Srijan-github">Github</a><br />
+            </div>
+        </div>
+
+        <div id="educationalQualification">
+            <table id="educationalQualificationsTable" width="100%">
+                <thead>
+                    <tr>
+                        <th class="heading">Year</th>
+                        <th class="heading">Degree</th>
+                        <th class="heading" id="heading3">Institution (Board)</th>
+                        <th class="heading">CGPA/%</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td class="body">2025</td>
+                        <td class="body">B.Tech, CE</td>
+                        <td class="body">Indian Institute of Technology, Kanpur</td>
+                        <td class="body">8.12</td>
+                    </tr>
+                    <tr>
+                        <td class="body">2021</td>
+                        <td class="body">CBSE XII</td>
+                        <td class="body">Saint Johns, Kota</td>
+                        <td class="body">94.8%</td>
+                    </tr>
+                    <tr>
+                        <td class="body bodyBottom">2019</td>
+                        <td class="body bodyBottom">CBSE X</td>
+                        <td class="body bodyBottom">Saint Anthony, Kota</td>
+                        <td class="body bodyBottom">92.6%</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        
+        <div style="background-color:lightgrey">
+            <br>
+        <br>
+        <marquee><h4 style="color:orange">Thanks</h4> <pre><h4 style="color:white"> for </pre></h4> <h4 style="color:rgb(48, 225, 48)">visiting</h4></marquee>
+        <!-- <marquee></marquee> -->
+        </div>
+    </body>
+</html>
